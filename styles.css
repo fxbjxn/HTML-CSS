@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --background: rgba(196, 196, 196, 0.856);
+}
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background-image: url("background.jpg");
+  
+  background-repeat:no-repeat;
+  margin:auto;
+}
+
+.login-container {
+  backdrop-filter:blur(70px);
+  padding:30px;
+  padding-top:10px;
+  margin-top:70px;
+  border-radius:30px;
+  align-items:center;
+  margin: 70px auto auto auto;
+  
+  
+}
+
+.logo {
+  height:80px;
+  display:block;
+  margin:auto;
+  filter: invert(99%) sepia(0%) saturate(3598%) hue-rotate(130deg) brightness(110%) contrast(100%);
+  
+  
+}
+
+input {
+  display:block;
+  margin: auto auto 10px auto;
+  border-radius:10px;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 0.836);
+  text-align:center;
+  background-color: transparent;
+  color:white;
+  font-size:10px;
+}
+::placeholder {
+  color:white;
+  font-size:10px;
+}
+
+a:visited {
+  color:white;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+  
+  
+}
+
+input[type="submit"] {
+  color:white;
+  border-radius:30px;
+  padding:8px;
+  font-size:10px;
+  margin:auto;
+}
+.login-via{
+  color:white;
+  margin-top:10px;
+  text-align:center;
+  
+}
+
+.login-bottom {
+  color:white;
+  text-align:center;
+  margin:auto;
+  
+}
+.login-top {
+  text-align:center;
+  color:white;
+  margin:auto;
+}
+
+h2 {
+  padding:5px;
+  margin:10px;
+}
+p {
+  display:inline;
+  font-size:11px;
+  text-align: center;
+  
+  
+}
+
+footer {
+  color:white;
+  
+}
+
+.social-login {
+ 
+}
+
+input:focus {
+  outline:none;
+}
+
+.grid-item1 {
+  background-image:url("facebook.svg");
+  
+}
+.grid-item2 {
+  background-image: url("google.svg");
+}
+.grid-item3 {
+  background-image: url("apple.svg");
+}
